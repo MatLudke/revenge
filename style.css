@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 68px;
+}
+
+nav{
+    background-color: #3b5998!important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    height: 90px;
+}
+
+body{
+    background-color: #dfe3ee;
+}
+
+.login{
+    margin-top: 1rem;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #ffffff;
+    width: 300px;
+    padding: 3rem 2rem 3rem 2rem;
+    position: relative;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+#password{
+    margin-top: 2rem;
+}
+
+input{
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#success{
+    margin-top: 2rem;
+}
+
+.avatar{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5f5f5;
+    margin-top: 3rem;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 8px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    justify-items: center;
+}
+
+.avatar img{
+    margin-top: 2rem;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.about {
+    margin-bottom: 8rem;
+    font-size: 24px;
+    
+}
+
+.about :first-child{
+    font-size: 32px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+    
